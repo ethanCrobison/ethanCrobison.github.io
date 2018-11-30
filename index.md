@@ -5,4 +5,28 @@
 layout: home
 ---
 
-This is a test.
+I'm a third year PhD candidate at Northwestern University. I like to yell about games and
+gardening.
+
+
+***
+
+## Projects
+
+
+
+***
+
+## Work
+
+
+
+***
+
+## Teaching
+
+
+***
+
+## Miscellaneous
+
