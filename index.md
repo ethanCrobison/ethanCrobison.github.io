@@ -6,27 +6,27 @@ layout: home
 ---
 
 I'm a third year PhD candidate at Northwestern University. I like to yell about games and
-gardening.
+gardening. My friend Slim recently sold me on the glory of [Pandoc](http://pandoc.org).
 
 
-***
+---
 
 ## Projects
 
 
 
-***
+---
 
 ## Work
 
 
 
-***
+---
 
 ## Teaching
 
 
-***
+---
 
 ## Miscellaneous
 
