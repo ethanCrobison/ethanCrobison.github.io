@@ -29,7 +29,7 @@ Ian Horswill and <b>Ethan Robison</b>. Presented at EXAG 2018.
 
 ### A Sandbox for Modeling Social AI
 
-<b>Ethan Robison</b>. Presented at EXAG 2017. [PDF](files/AISandbox.pdf).
+<b>Ethan Robison</b>. Presented at EXAG 2017. [PDF](files/aisandbox.pdf).
 
 <br>
 
