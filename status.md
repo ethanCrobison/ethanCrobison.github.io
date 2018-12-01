@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Status
+title: status
 permalink: /status/
 ---
 
@@ -13,11 +13,11 @@ permalink: /status/
 - Small: A playlist markup language. Maybe it will integrate with the Spotify API? _ETA:
   Early Winter_
 
-- Teaching: Blog posts on (1) p-controllers and (2) behavior trees. Both coming soon.
-  _ETA: Late Fall_
+- Teaching: Blog posts on (1) p-controllers, (2) behavior trees, and (3) pandoc basics.
+  All coming soon.  _ETA: Late Fall_
 
 - Next up: Make it Stick flashcards. An Arkham Horror markov generator. A markov net
-  city-building game.
+  city-building game. Prezto post. Tank! game in Unity. Juicy feedback.
 
 <br>
 
