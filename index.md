@@ -10,6 +10,8 @@ This whole page is under construction. Alas. It will all be up to speed soon.
 I'm a third year PhD candidate at Northwestern University. I like to yell about games and
 gardening. My friend Slim recently sold me on the glory of [Pandoc](http://pandoc.org).
 
+<br>
+
 
 ---
 
@@ -24,12 +26,12 @@ license).  [Link](https://github.com/ethanrobison/ansprolog_sublimesyntax/).
 
 ### What’s the Worst Thing You’ve Ever Done at a Conference? Operationalizing Dread‘s Questionnaire Mechanic
 
-Ian Horswill and <b>Ethan Robison</b>. Presented at EXAG 2018.
+Ian Horswill and __Ethan Robison__. Presented at EXAG 2018.
 [PDF](files/autodread.pdf).
 
 ### A Sandbox for Modeling Social AI
 
-<b>Ethan Robison</b>. Presented at EXAG 2017. [PDF](files/aisandbox.pdf).
+__Ethan Robison__. Presented at EXAG 2017. [PDF](files/aisandbox.pdf).
 
 <br>
 
