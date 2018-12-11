@@ -10,6 +10,11 @@ This whole page is under construction. Alas. It will all be up to speed soon.
 I'm a third year PhD candidate at Northwestern University. I like to yell about games and
 gardening. My friend Slim recently sold me on the glory of [Pandoc](http://pandoc.org).
 
+I'm interested in a lot of things, but my current focus is on democratizing answer set
+programming so that more folks (especially game designers) can leverage its
+expressiveness. Other interests include "surfaced" (understandable, debuggable) AI and
+robust (non-fragile, non-stupid) agents.
+
 <br>
 
 
