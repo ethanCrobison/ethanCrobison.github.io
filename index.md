@@ -17,12 +17,20 @@ gardening. My friend Slim recently sold me on the glory of [Pandoc](http://pando
 
 ## Projects
 
-Projects and Research
+Projects
 
 ### AnsProlog Syntax Highlighting
 
 Sublime text syntax highlighting package for AnsProlog. Free to use (MIT
 license).  [Link](https://github.com/ethanrobison/ansprolog_sublimesyntax/).
+
+<br>
+
+---
+
+## Research and Writing
+
+Publication, essays, etc.
 
 ### What’s the Worst Thing You’ve Ever Done at a Conference? Operationalizing Dread‘s Questionnaire Mechanic
 
@@ -32,6 +40,13 @@ Ian Horswill and __Ethan Robison__. Presented at EXAG 2018.
 ### A Sandbox for Modeling Social AI
 
 __Ethan Robison__. Presented at EXAG 2017. [PDF](files/aisandbox.pdf).
+
+<br>
+
+### Against Deep Learning for Level Generation in Games
+
+Essay written as a (small) part of my qualifying exams in cognitive systems.
+[PDF](files/deeplearninglevels.pdf).
 
 <br>
 
