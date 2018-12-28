@@ -4,6 +4,11 @@ title: status
 permalink: /status/
 ---
 
+### Reading
+
+A-side: The Amazing Adventures of Kavelier and Clay
+B-side: Babel: Around the World in 20 Languages
+
 ### Projects
 
 - Big: Something with ASP and making it more tractable... Conversations with my advisor
