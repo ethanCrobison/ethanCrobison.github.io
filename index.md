@@ -35,7 +35,7 @@ license).  [Link](https://github.com/ethanrobison/ansprolog_sublimesyntax/).
 
 ## Research and Writing
 
-Publication, essays, etc.
+Publications, essays, etc.
 
 ### What’s the Worst Thing You’ve Ever Done at a Conference? Operationalizing Dread‘s Questionnaire Mechanic
 
