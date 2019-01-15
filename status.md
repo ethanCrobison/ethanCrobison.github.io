@@ -4,19 +4,18 @@ title: status
 permalink: /status/
 ---
 
-### Reading
+# Activities
 
-A-side: The Amazing Adventures of Kavelier and Clay
-B-side: Babel: Around the World in 20 Languages
+A lot of streaming lately. I'm super into it. A mixture of live coding and suffering
+through my current game of the month, Vagante.
 
-### Projects
+# Projects
 
-- Big: Something with ASP and making it more tractable... Conversations with my advisor
-  to happen.
+Experimental game jam game.
 
-- Small: Strategy extraction? Mixing my recent obsession with Drop7 and MCTS.
+# Reading
 
-- Side: A remake of my old senior-year project.
+_A Walk in the Woods_ by Bill Bryson.
 
 <br>
 
