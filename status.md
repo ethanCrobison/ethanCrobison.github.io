@@ -4,18 +4,7 @@ title: status
 permalink: /status/
 ---
 
-# Activities
-
-A lot of streaming lately. I'm super into it. A mixture of live coding and suffering
-through my current game of the month, Vagante.
-
-# Projects
-
-Experimental game jam game.
-
-# Reading
-
-_A Walk in the Woods_ by Bill Bryson.
+Not to be melodramatic, but: Pretty stressed out, I suppose.
 
 <br>
 
