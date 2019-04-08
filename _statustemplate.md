@@ -4,21 +4,13 @@ title: status
 permalink: /status/
 ---
 
-# Reading
+<!--Books-->
 
-_Stanger in a Strange Land_, _Expressive Processing_
+<!--Games-->
 
-# Playing
+<!--Mental State-->
 
-_Stardew Valley_, _Baba is You_
-
-# Mental State
-
-Better than before.
-
-# News
-
-Starting my AI programming gig at SomaSim, LLC. on April 1st.
+<!--News-->
 
 <br>
 
@@ -26,5 +18,6 @@ Starting my AI programming gig at SomaSim, LLC. on April 1st.
 
 This is a status page. It's not certain what I'll put here.  Inspired by a [Warren Ellis
 post](http://morning.computer/2018/11/the-status-page/).
+
 
 
