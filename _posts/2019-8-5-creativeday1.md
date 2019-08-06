@@ -11,6 +11,8 @@ reddit r/writingprompts post every day. 500 words or more.
 Here's the
 [permalink](https://www.reddit.com/r/WritingPrompts/comments/cm9ps4/wp_you_are_serving_a_life_sentence_in_solitude_on/ew2vr3l?utm_source=share&utm_medium=web2x) to my comment.
 
+# Story
+
 
 "There's something you should see," Double-L said from inside his helmet. His watch showed 
 that they're somewhere on the far side of the asteroid. A forty-five minute trip, easily.
