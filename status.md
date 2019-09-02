@@ -6,19 +6,21 @@ permalink: /status/
 
 # Reading
 
-_Stanger in a Strange Land_, _Expressive Processing_
+_The Bonesetter's Daughter_, by Amy Tan. _Salt_, by Mark Kurlansky.
 
 # Playing
 
-_Stardew Valley_, _Baba is You_
+_Night in the Woods_, _Stardew Valley_.
 
 # Mental State
 
-Better than before.
+Hanging in there.
 
 # News
 
-Starting my AI programming gig at SomaSim, LLC. on April 1st.
+I recently completed a 1,000 piece puzzle of a map of Yellowstone Nation Park. It was a
+huge pain in the ass. I'll probably frame it, because the prospect of putting it together
+a second time is upsetting.
 
 <br>
 

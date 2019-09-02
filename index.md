@@ -5,15 +5,10 @@
 layout: home
 ---
 
-This whole page is under construction. Alas. It will all be up to speed soon.
+I'm a fourth year PhD candidate at Northwestern University. I like to yell about games
+and gardening. 
 
-I'm a third year PhD candidate at Northwestern University. I like to yell about games and
-gardening. My friend Slim recently sold me on the glory of [Pandoc](http://pandoc.org).
-
-I'm interested in a lot of things, but my current focus is on democratizing answer set
-programming so that more folks (especially game designers) can leverage its
-expressiveness. Other interests include "surfaced" (understandable, debuggable) AI and
-robust (non-fragile, non-stupid) agents.
+Interests include debuggability in AI, and anti-stupidity in non-player characters.
 
 <br>
 
@@ -28,6 +23,11 @@ Projects
 
 Sublime text syntax highlighting package for AnsProlog. Free to use (MIT
 license).  [Link](https://github.com/ethanrobison/ansprolog_sublimesyntax/).
+
+### Year of Creation
+
+Work in progress, but starting in August 2019 I made a thing every day.
+[Link](/yearofcreation.html)
 
 <br>
 

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Year of Creation</title>
+	<style type="text/css">
+		body {
+			margin: 1em;
+		}
+
+		.header {
+			padding: 1em;
+			background-color: #f1f1f1;
+		}
+
+		.footer {
+			padding: 1em;
+			background-color: #f1f1f1;	
+		}
+
+		.topnav {
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		.topnav a {
+			float: left;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 0.5em 0.75em;
+			text-decoration: none;
+		}
+
+		.topnav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+
+		.column {
+			float: left;
+			width: 40%;
+		}
+
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		@media screen and (max-width: 600px) {
+			.column { width: 100%; }
+		}
+
+	</style>
+</head>
+<body>
+	<div class="header"><h1>Year of Creation</h1></div>
+
+	<div class="topnav">
+		<a href="/">Home</a>
+		<a href="#">August 19</a>
+		<a href="#">September 19</a>
+	</div>
+
+	<div class="row">
+		<div class="column">
+			<p>This is a landing page for landing pages. Each of these links will take you to the description for each month's family of projects. None of these links work at the moment. You'll have to come back later in the month for that.</p>
+
+			<p>This specific page was made as part of the September 2019 run, where I made a webpage every day. It was the first one (can you tell?).</p>
+		</div>
+
+		
+		<div class="column">
+			<ul>
+				<li><a href="">August 2019: Short Stories</a></li>
+				<li><a href="">September 2019: Webpages</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>
+			"We must be <em>patient</em> and believe that inspiration will come to those who master their disinclination."
+			<br>—Pyotr Tchaikovsky
+		</p>
+		
+		<p>Ethan Robison 2019</p>
+	</div>
+
+	<!-- todo: check out flexbox? that's apparently the way to do the deed -->
+</body>
+</html>
