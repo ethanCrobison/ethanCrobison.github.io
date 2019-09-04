@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>September 2019 | Webpage a Day</title>
+	<link rel="stylesheet" type="text/css" href="page.css">
+</head>
+<body>
+
+	<div class="header">
+		<h1>A Webpage Every Day</h1>
+	</div>
+
+	<div class="topnav">
+		<a href="/">Home</a>
+		<a href="#">August 19</a>
+		<a href="sept19landingpage">September 19</a>
+	</div>
+
+	<div class="row">
+		<div class="column">
+			<p>This page is going to be a lovely collection of all of the webpages that I make this month.</p>
+
+			<p>Each day, I'm going to try to do a different gimmick for the page in question. At the end of it all, I'll have quite the smorgasboard of random things to polish.</p>
+
+			<p>Today's gimmick is: <a href="https://www.w3schools.com/howto/howto_js_accordion.asp">accordions!</a></p>
+
+			<p>Tomorrow's gimmick will be: <a href="https://www.w3schools.com/howto/howto_css_flip_card.asp">flip cards!</a></p>
+
+			<!-- <p>At some point, I should figure out how to avoid copy-pasting html all the time. Until then, I will suffer.</p> -->
+		</div>
+
+		<div class="column">
+			<button class="accordion">9/1</button>
+			<div class="panel">
+				<p>It was a Sunday. I made <a href="">this lovely landing page</a>.</p>
+			</div>
+			<button class="accordion">9/2</button>
+			<div class="panel">
+				<p>It was a Monday. I started this page, but didn't finish it. Back on the wagon tomorrow.</p>
+			</div>
+			<button class="accordion">9/3</button>
+			<div class="panel">
+				<p>It was a Tuesday. We missed Monday. I made <a href="">the page you're looking at</a>. Trippy.</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+<footer>
+	<script type="text/javascript">
+		var accordions = document.getElementsByClassName("accordion");
+		var i;
+
+		for (var i = accordions.length - 1; i >= 0; i--) {
+			accordions[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var panel = this.nextElementSibling;
+				if (panel.style.maxHeight) { panel.style.maxHeight = null; }
+				else { panel.style.maxHeight = panel.scrollHeight + "px"; }
+			});
+		}
+	</script>
+</footer>
+</html>
