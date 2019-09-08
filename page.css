@@ -87,8 +87,8 @@
 /* flip cards */
 .flip-card {
 	background-color: transparent;
-	width: 300px;
-	height: 8em;
+	/*width: 300px;*/
+	height: 2em;
 	perspective: 1000px;
 }
 
@@ -113,8 +113,8 @@
 }
 
 .flip-card-front {
-	background-color: #f1f1f1;
-	color: black;
+	background-color: white;
+	color: dodgerblue;
 }
 
 .flip-card-back {
