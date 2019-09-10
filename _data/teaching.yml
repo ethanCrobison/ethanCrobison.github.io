@@ -1,0 +1,29 @@
+
+- course: Game Design Studio II
+  years: [2018]
+  season: Spring
+  description: Upper-level game design course, for students hoping to go into the industry. Organized and run by me.
+
+- course: Data Structures and Data Management
+  years: [2018]
+  season: Spring
+  description: Fundamentals of data structures and algorithm in C#.
+  instructor: Ian Horswill
+
+- course: Game Design Studio I
+  years: [2016, 2017, 2018]
+  description: Game design studio course.
+  instructor: Rob Zubek
+  season: Winter
+
+- course: Game Design and Development
+  years: [2016, 2017]
+  description: Introductory game design course.
+  instructor: Ian Horswill
+  season: Fall
+
+- course: Computer Game Design
+  years: [2017]
+  instructor: Ken Forbus
+  description: Fundamentals and history of game design. One of the OG game design courses in the country.
+  season: Spring
