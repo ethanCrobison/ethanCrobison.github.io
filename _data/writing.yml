@@ -7,3 +7,8 @@
   description: Presented at EXAG 2018
   authors: [Ian Horswill, Ethan Robison]
   link: /files/autodread.pdf
+
+- title: Against Deep Learning for Level Generation in Games
+  authors: [Ethan Robison]
+  description: An essay written as a part of my qualifying exams.
+  link: /files/deeplearninglevels.pdf

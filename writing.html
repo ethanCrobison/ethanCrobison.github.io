@@ -3,34 +3,27 @@ layout: default
 title: writing
 ---
 
-<div class="row">
-	<div class="column">		
-		{% for writing in site.data.writing %}
-			<div>
-				<h3>{{writing.title}}</h3>
-				<p>
-					{% for author in writing.authors %}
-						{%- capture stylized -%}
-							{% if author == "Ethan Robison" %} <b>{{ author }}</b> {% else %}{{ author }}{% endif %}
-						{%- endcapture -%}
-						{% capture symbol %}
-							{% if writing.authors.size > 0 and forloop.last != true %}
-								{{ stylized }},
-							{% else %}
-								{{ stylized }}
-							{% endif %}
-						{% endcapture %}
+{% for writing in site.data.writing %}
+	<div>
+		<h3 style="margin-bottom: 0;">{{writing.title}}</h3>
+		<p>
+			{% for author in writing.authors %}
+				{%- capture stylized -%}
+					{% if author == "Ethan Robison" %} <b>{{ author }}</b> {% else %}{{ author }}{% endif %}
+				{%- endcapture -%}
+				{% capture symbol %}
+					{% if writing.authors.size > 0 and forloop.last != true %}
+						{{ stylized }},
+					{% else %}
+						{{ stylized }}
+					{% endif %}
+				{% endcapture %}
 
-						{{ symbol }}
-					{% endfor %}
-				</p>
-				<p>
-					{{writing.description}} <a href="{{writing.link}}">Link.</a>
-				</p>
-			</div>
-		{% endfor %}
+				{{ symbol }}
+			{% endfor %}
+		</p>
+		<p style="margin-left: 2em;">
+			{{writing.description}} <a href="{{writing.link}}">Link.</a>
+		</p>
 	</div>
-	<div class="column">
-		<p></p>
-	</div>
-</div>
+{% endfor %}
