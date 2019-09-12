@@ -1,0 +1,7 @@
+- name: AnsProlog Syntax Highlighting
+  description: Sublime text syntax highlighting package for AnsProlog. Free to use (MIT license).
+  link: https://github.com/ethanrobison/ansprolog_sublimesyntax/
+
+- name: Year of Creation
+  description: Starting in August 2019, I made a thing every day.
+  link: /yearofcreation
