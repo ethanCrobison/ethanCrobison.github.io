@@ -84,6 +84,37 @@
 	transition: max-height 0.2s ease-out;
 }
 
+/* sidenav */
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	color: white;
+	overflow: hidden;
+	padding-top: 2em;
+	/*transition: 0.1s;*/
+}
+
+.sidenav p {
+	padding: 1em 4em 0.5em 2em;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 1em;
+	font-size: 36px;
+	margin-left: 4em;
+	margin-bottom: 4em;
+}
+
 /* flip cards */
 .flip-card {
 	background-color: transparent;
