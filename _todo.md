@@ -61,3 +61,8 @@
 # didactic
 
 [TK: everything on this site...]
+
+
+# miscellaneous stuff to clean up
+- favicon.ico not found
+- [expandir] remove old css and use my own, custom stuff...
