@@ -1,24 +1,25 @@
 # header
 
-1. me
-2. current work
-3. thing I do (identity)
-4. thing I do (specifically)
+[x]
 
 # contact
 
-1. email
-2. github
-3. ...
+[x] email
+[x] github
 
 # professional work
 
-## unannounced game
+for each
+1. what is it, broadly? [include .gif and source links and steam
+   links]
+2. what did I do in my day-to-day?
+3. what skills did I practice/improve upon?
+4. how was I an essential member of the team?
+5. when did I do it?
 
-## project highrise mobile port
-
-## project highrise desktop
-
+[] unannounced game
+[] project highrise mobile port
+[] project highrise desktop
 
 # scholarly work
 

@@ -11,15 +11,6 @@ Game AI PhD Student \| Game Designer \| Game Programmer
 
 # professional
 
-for each:
-
-1. what is it, broadly? [include .gif and source links and steam
-   links]
-2. what did I do in my day-to-day?
-3. what skills did I practice/improve upon?
-4. how was I an essential member of the team?
-5. when did I do it?
-
 ## unannounced game
 
 
