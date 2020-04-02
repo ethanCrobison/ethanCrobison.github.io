@@ -77,3 +77,13 @@ you'll still get error and info messages.
 __Source:__ running `clingo --help=2` or `clingo --help=3`. Grep for "JSON" (all caps).
 
 <!--### Use multiple integrity constraints to for "or-like" situations-->
+
+### Remember that intervals get macro expanded
+
+[TODO something about (1..2;5..7)
+
+### Different arrangements in integrity constraints
+
+:- #count { H: teach(D,H,T), day(D), ta(T) } < 2.
+:- day(D), #count { H,T: teach(D,H,T) } < 2.
+:- day(D), #count { H: teach(D,H,T), ta(T) } < 2.
