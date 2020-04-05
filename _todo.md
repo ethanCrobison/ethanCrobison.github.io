@@ -17,15 +17,21 @@ for each
 4. how was I an essential member of the team?
 5. when did I do it?
 
-[] unannounced game
-[] project highrise mobile port
-[] project highrise desktop
+[x] unannounced game
+[x] project highrise mobile port
+[x] project highrise desktop
+[] hover to start .gifs for each
 
 # scholarly work
 
-## autodread
+For each project, give a blurb about the work, as well as a "with blah
+blah blah" by line. The date, and location of publication.
 
-## sandbox
+[] position paper for how game AI papers should be done
+[] CoG AI paper
+[] CoG design paper
+[] autodread
+[] sandbox
 
 
 # pedagogical work
@@ -42,6 +48,9 @@ for each
 2. FAQ for GDS
 
 # personal & misc.
+
+1. vimrc challenges... when I solve a problem, document it
+2. asp notes
 
 ## principles of this site
 
