@@ -4,28 +4,20 @@ layout: home
 
 # Ethan Robison
 
-AI PhD Candidate \| Designer \| Programmer
-
-
+AI PhD Candidate \| Designer \| Programmer<br>
 [{{ site.email }}](mailto:{{ site.email }}) | 
 [github.com/{{ site.github_username }}](https://github.com/{{
 site.github_username}}/)
 
+I study experimental game AI. Sometimes I make things.<br>
+Explore to find:
 
-# scholarly
+<!-- - [my blog](/posts) -->
+- [my work experience](/professional)
+- [my pedagogical experience](/teaching)
+<!-- - [research](/research) -->
 
-## autodread
-
-## sandbox
-
-## guides, faqs, tutorials
-
-1. start menu in Unity
-2. FAQ for GDS
-
-# personal
-
-## principles of this site
+## Principles of this site
 
 1. written in markdown\*
 2. static\*
@@ -35,13 +27,3 @@ site.github_username}}/)
 6. didactic
 
 \* not always possible, but I've done my best
-
-## blog
-
-## Arkham Horror?
-
-## Smaller Games that I Made :)
-
-# didactic
-
-[TK: everything on this site...]
