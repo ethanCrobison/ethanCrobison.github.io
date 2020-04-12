@@ -1,8 +1,7 @@
 ---
 layout: home
+title: Ethan Robison
 ---
-
-# Ethan Robison
 
 ---
 
