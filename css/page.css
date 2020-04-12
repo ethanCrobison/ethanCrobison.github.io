@@ -1,0 +1,33 @@
+body {
+    width: 60%;
+    margin: 2% 10%;
+}
+
+.gray { color: #bbb; }
+
+.header {
+	padding: 1em;
+	background-color: #f1f1f1;
+	margin-bottom: 1em;
+}
+
+.footer {
+	padding: 1em;
+	background-color: #f1f1f1;	
+}
+
+/* grid layout */
+.column {
+	float: left;
+	width: 40%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 600px) {
+	.column { width: 100%; }
+}
