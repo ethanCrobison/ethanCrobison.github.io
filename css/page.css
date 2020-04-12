@@ -5,15 +5,16 @@ body {
 
 .gray { color: #bbb; }
 
-.header {
-	padding: 1em;
-	background-color: #f1f1f1;
-	margin-bottom: 1em;
+header {
+    padding: 1em;
+    /* background-color: #f1f1f1; */
+    margin-bottom: 1em;
 }
 
-.footer {
-	padding: 1em;
-	background-color: #f1f1f1;	
+footer {
+    margin-top: 1em;
+    padding: 1em;
+    /* background-color: #f1f1f1; */
 }
 
 /* grid layout */
