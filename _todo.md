@@ -1,11 +1,11 @@
 # header
 
-[x]
+- [x]
 
 # contact
 
-[x] email
-[x] github
+- [x] email
+- [x] github
 
 # professional work
 
@@ -17,40 +17,52 @@ for each
 4. how was I an essential member of the team?
 5. when did I do it?
 
-[x] unannounced game
-[x] project highrise mobile port
-[x] project highrise desktop
-[] hover to start .gifs for each
+- [x] unannounced game
+- [x] project highrise mobile port
+- [x] project highrise desktop
+- [] hover to start .gifs for each
 
 # scholarly work
 
 For each project, give a blurb about the work, as well as a "with blah
 blah blah" by line. The date, and location of publication.
 
-[] position paper for how game AI papers should be done
-[] CoG AI paper
-[] CoG design paper
-[] autodread
-[] sandbox
-
+- [] position paper for how game AI papers should be done
+- [] CoG AI paper
+- [] CoG design paper
+- [] autodread
+- [] sandbox
+- [] Dear Leader's Happy Story Time?
 
 # pedagogical work
 
-## teaching list
-
-## lectures
-
-1. gotta search through the backlog and upload everything, I guess...
+- [] teaching list
+- [] lectures
+    [] for each class, club, whatever, I've ever been involved with,
+    find any talks I've given and decided if they should be uploaded.
 
 ## guides, faqs, tutorials
 
-1. start menu in Unity
-2. FAQ for GDS
+- [] TODO list on main page
 
 # personal & misc.
 
-1. vimrc challenges... when I solve a problem, document it
-2. asp notes
+- [] vimrc challenges... when I solve a problem, document it
+- [] asp notes
+- [] asp for scheduling
+- [] the autograder script for rob's class
+- [] blog post about making this site pleaseseeee
+- [] also, blog post about the process of going through all of my old,
+    e.g., google drive folders and making back-ups somewhere
+- [] how to write academic papers in markdown/pandoc/latex fusion
+- [] makefiles
+
+## Smaller Games that I Made :)
+
+- [] ongoing projects
+- [] train jam
+- [] trijam
+- [] that other jam?
 
 ## principles of this site
 
@@ -62,17 +74,5 @@ blah blah" by line. The date, and location of publication.
 
 \*not always possible, but I've done my best
 
-## blog
-
-## Arkham Horror?
-
-## Smaller Games that I Made :)
-
-# didactic
-
-[TK: everything on this site...]
-
-
 # miscellaneous stuff to clean up
-- favicon.ico not found
-- [expandir] remove old css and use my own, custom stuff...
+- [] favicon.ico not found
