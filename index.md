@@ -3,11 +3,11 @@ layout: home
 title: Ethan Robison
 ---
 
----
-
 AI PhD Candidate \| Designer \| Programmer<br>
 [{{ site.email }}][2] | 
 [github.com/{{ site.github_username }}][1]
+
+---
 
 I study experimental game AI. Sometimes I make things.<br>
 Explore to find:
