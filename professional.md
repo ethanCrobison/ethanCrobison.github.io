@@ -7,7 +7,7 @@ A collection of the game development work I've done in a professional
 capacity (where someone thought it fitting to offer me pecuniary
 compensation). In chronological order.
 
-# Unannounced Project
+## Unannounced Project
 
 <span class="gray">
 __AI Programmer__
@@ -23,7 +23,7 @@ when I can. I can, however, say these two things:
 2. The AI work that I did during this period forms the backbone for my
    dissertation research. More on that later. <!-- TODO link to diss stuff -->
 
-# Project Highrise (Tablet Edition)
+## Project Highrise (Tablet Edition)
 
 <span class="gray">
 __UI Programming Intern__
@@ -55,7 +55,7 @@ Store][1] or the [Apple Store][2].
 [1]: https://play.google.com/store/apps/details?id=com.kalypsomedia.projecthighrise
 [2]: https://apps.apple.com/us/app/project-highrise/id1277095117
 
-# Project Highrise (Desktop Edition)
+## Project Highrise (Desktop Edition)
 
 
 <span class="gray">
