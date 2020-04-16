@@ -1,0 +1,50 @@
+html {
+    font-family: Helvetica, sans-serif;
+    background: #222;
+    color: #ddd;
+}
+
+body {
+    width: 60%;
+    margin: 2% 10%;
+}
+
+header {
+    padding: 1em;
+    /* background-color: #f1f1f1; */
+    margin-bottom: 1em;
+}
+
+footer {
+    margin-top: 1em;
+    padding: 1em;
+    /* background-color: #f1f1f1; */
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+
+.gray { color: #bbb; }
+
+/* grid layout */
+.column {
+	float: left;
+	width: 40%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 600px) {
+	.column { width: 100%; }
+}
