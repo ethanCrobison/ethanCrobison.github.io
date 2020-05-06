@@ -9,6 +9,7 @@ cvinfo:
         - INTERNSHIP
     org: "SOMASIM, LLC."
     time: "FALL 16 to SPRING 17"
+    blurb: "Unity3D and C# gameplay programming internship."
 title: "Project Highrise"
 ---
 

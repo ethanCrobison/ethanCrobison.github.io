@@ -7,6 +7,7 @@ cvinfo:
     org: "SOMASIM, LLC."
     time: "SPRING 19 to FALL 19"
     extra: INTERNSHIP
+    blurb: "Architect experimental AI for strategy simulation game."
 title: "Unannounced Project"
 ---
 

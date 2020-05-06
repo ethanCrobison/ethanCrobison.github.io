@@ -2,6 +2,9 @@
 layout: default
 cvinfo:
     type: Personal
+    org: PERSONAL PROJECT
+    time: "SPRING 20"
+    blurb: "Use Jekyll front-matter to generate a resume and CV."
     tags:
         - Automation
 title: "Auto CV: Set-and-forget for Professional Documentation"

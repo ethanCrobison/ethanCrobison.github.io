@@ -40,7 +40,14 @@ layout: default
 <span class="gray">
 {{ info.org }}---{{ info.time }}{% if info.extra %}{% for e in info.extra %}---{{ e }}{% endfor %}{% endif %}
 </span>
+
+{{ info.blurb }}
+
+[Project page.]({{ item.url }})
+
 {% endfor %}
+{% else %}
+<!-- Nothing here! -->
 {% endfor %}
 
 <!-- TODO teaching -->

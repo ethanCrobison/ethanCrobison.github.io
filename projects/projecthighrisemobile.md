@@ -9,6 +9,7 @@ cvinfo:
         - INTERNSHIP
     org: "SOMASIM, LLC."
     time: "SUMMER 17"
+    blurb: "UI design and programming internship."
 title: "Project Highrise: Tablet Edition"
 ---
 
