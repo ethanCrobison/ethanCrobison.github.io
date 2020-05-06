@@ -1,9 +1,9 @@
 ---
 layout: default
 cvinfo:
-    date: 123
-    title: 456
-    category: 789
+    type: Personal
+    tags:
+        - Automation
 title: "Auto CV: Set-and-forget for Professional Documentation"
 ---
 
