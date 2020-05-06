@@ -13,9 +13,11 @@ I study experimental game AI. Sometimes I make things.<br>
 Explore to find:
 
 <!-- - [my blog](/posts) -->
-- [my work experience](/professional)
+- [my work experience](/projects/professional)
 - [my pedagogical experience](/teaching)
+<!-- - projects/CV -->
 <!-- - [research](/research) -->
+- [mv CV](/cv)
 
 ---
 
