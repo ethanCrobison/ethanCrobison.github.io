@@ -10,7 +10,6 @@ layout: default
 - Chicago, IL
 
 # Education
-- PhD (abd) in Computer Science, Northwestern University, 2020
 - MS in Computer Science, Northwestern University, 2020
 - BS in Computer Science, Northwestern University, 2016
 
