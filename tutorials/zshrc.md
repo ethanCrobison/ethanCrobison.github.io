@@ -198,61 +198,6 @@ long-form rubber ducky debugging.
 This particular nonsense opts me out dotnet data collection from the
 time I faffed around with f# for 20 minutes. A relic, to be sure.
 
-## Coda: How This Page Was Written
-
-Initially, this page's markdown included the line:
-
-```liquid-markdown
-{% raw %}
-{% include zshrc %}
-{% endraw %}
-```
-
-Where `zshrc` was symbollically linked to my `_includes` directory:
-
-```
-ln -s ~/.config/dotfiles/.zshrc _includes/zshrc
-```
-
-Which let me access the contents of the file from anywhere in the
-directory.
-
-So far, so good. But there's a bit of difficulty: if I changed the
-contents of `~/.config/dotfiles/.zshrc`, the site would automagically
-change the contents of this page, and I'll end up with an outdated
-line-by-line that I'd have to fix/validate myself.
-
-So, I had 0 effort to make sure that the body of the .zshrc ended up
-here in my directory, but I had to manually ensure that new content got
-explained (since that was, after all, the point of the line-by-line). We
-try to automate everything we plan on doing around these parts, so I
-tried the following solution:
-
-```zsh
-#!/bin/zsh
-
-original=$1
-lineby=$2
-
-< $original while read x; do
-    if [[ -z $x ]]; then continue; fi # empty line
-    if rg --quiet -x "^\s*#.*$" <<< $x; then continue; fi # comment
-    if ! rg --quiet -F $x $lineby; then echo $x; fi
-done
-```
-
-When this is called as
-
-```
-./_checklinebyline ~/.zshrc ./zshrc.md
-```
-
-Every non-empty, non-comment line in my .zshrc that isn't _somewhere_ in
-this file is printed. It's not a perfect solution (currently, it
-struggles with multi-line commands, which `read` treats as being one
-long command with random tabs sprinkled throughout), but it works for
-now. It feels good to automate, however imperfectly.
-
 [1]: https://github.com/ethanrobison/dotfiles
 [2]: https://stackoverflow.com/questions/13542832/difference-between-single-and-double-square-brackets-in-bash
 [4]: http://zsh.sourceforge.net/Doc/Release/Conditional-Expressions.html

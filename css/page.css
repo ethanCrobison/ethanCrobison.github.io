@@ -21,6 +21,10 @@ footer {
     /* background-color: #f1f1f1; */
 }
 
+h2 {
+    margin-top: 2em;
+}
+
 a {
     color: #777;
     text-decoration: none;

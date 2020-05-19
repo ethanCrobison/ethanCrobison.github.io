@@ -12,7 +12,7 @@ AI PhD Candidate \| Designer \| Programmer<br>
 I study experimental game AI. Sometimes I make things.<br>
 Explore to find my:
 
-<!-- - [my blog](/posts) -->
+- [blog](/posts)
 - [work experience](/projects/professional)
 - [pedagogical experience](/teaching/teaching)
 <!-- - projects/CV -->
