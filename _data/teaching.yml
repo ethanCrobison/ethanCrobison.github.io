@@ -8,6 +8,8 @@
   desc: Students create a shippable game from scratch in Unity3D and C# in a
       studio-style environment with instructor critique and guidance.
   talks:
+      - title: Tricks for Juicy Games
+        link: JuiceTricks.zip
       - title: Tips for Making Short Games
       - title: Polish
       - title: 10 Things I Hate About Unity
@@ -20,11 +22,11 @@
       and serialization.
   talks:
       - title: "Game AI: Pathfinding"
-        link: Pathfinding
+        link: Pathfinding.pdf
       - title: "MDA II: Gameplay"
-        link: Gameplay
+        link: Gameplay.pdf
       - title: "MDA III: Experience"
-        link: Experience
+        link: Experience.pdf
 - title: Game Design Studio II
   season: Spring
   years: [2018]

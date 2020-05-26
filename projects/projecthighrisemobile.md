@@ -26,7 +26,7 @@ Highrise_ to work on Android tablets and iPads. The UI conversion that
 happened here also laid the foundation for the porting of the game to
 consoles.
 
-[TODO .gif of the gameplay, highlight the diffs?]
+<!-- [TODO .gif of the gameplay, highlight the diffs?] -->
 
 On the one hand, this project was an extension of the interning that I
 did in the preceding months: I did a lot of miscellaneous work on a
