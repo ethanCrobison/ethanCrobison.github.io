@@ -29,9 +29,9 @@ taught by me
 {% if talk.link %}
     {% assign link = talk.link %}
 {% else %}
-    {% assign link = talk.title | replace: " ", "_" %}
+    {% assign link = talk.title | replace: " ", "_" | append: ".pdf" %}
 {% endif %}
-- [{{ talk.title }}](/files/talks/{{ link }}.pdf)
+- [{{ talk.title }}](/files/talks/{{ link }})
 {% endfor %}
 {% endif %}
 

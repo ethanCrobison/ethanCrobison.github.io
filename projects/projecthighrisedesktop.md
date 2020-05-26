@@ -25,7 +25,7 @@ __Programming Intern__
 _Project Highrise_ is a skyscraper construction and management sim from
 [SomaSim, LLC](http://www.somasim.com/blog/).
 
-[TODO .gif of gameplay]
+<!-- [TODO .gif of gameplay] -->
 
 I worked on this project as an intern doing gameplay programming,
 feature requests, and debugging. I picked up a ton of practical
