@@ -9,15 +9,16 @@ AI PhD Candidate \| Designer \| Programmer<br>
 
 ---
 
-I study experimental game AI. Sometimes I make things.<br>
+I study experimental game AI. I make things.<br>
 Explore to find my:
 
 - [blog](/posts)
-- [work experience](/projects/professional)
-- [pedagogical experience](/teaching/teaching)
+<!-- - [work experience](/projects/professional) -->
+- [teaching experience](/teaching/teaching)
 <!-- - projects/CV -->
 <!-- - [research](/research) -->
 - [CV](/cv)
+- [projects](/projects/landing)
 - [tutorials](/tutorials/intro)
 
 ---
