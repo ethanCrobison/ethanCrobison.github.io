@@ -40,6 +40,11 @@
   desc: Students learn the fundamentals of algorithms, runtime complexity, and
       data structures in a python-adjacent language. Heavy on system design and
       unit testing.
+  talks:
+      - title: "How to Write Unit Tests"
+        link: UnitTests.mp4
+      - title: "Debugging Fundamentals"
+        link: Debugging.mp4
 - title: Data Structures
   season: Spring
   years: [2018]
