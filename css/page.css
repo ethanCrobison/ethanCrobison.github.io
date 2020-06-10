@@ -1,7 +1,15 @@
+:root {
+    --charcoal: hsla(197, 54%, 33%, 1);
+    --persian-green: hsla(173, 73%, 62%, 1);
+    --orange-yellow-crayola: hsla(43, 55%, 91%, 1);
+    --sandy-brown: hsla(27, 60%, 96%, 1);
+    --burnt-sienna: hsla(12, 65%, 91%, 1);
+    --gray-text: hsla(197,17%,99%,1);
+}
 html {
-    font-family: Helvetica, sans-serif;
-    background: #222;
-    color: #ddd;
+    font-family: Roboto, sans-serif;
+    background: var(--charcoal);
+    color: var(--gray-text);
 }
 
 body {
@@ -27,7 +35,7 @@ h2 {
 }
 
 a {
-    color: #777;
+    color: var(--persian-green);
     text-decoration: none;
 }
 
@@ -40,16 +48,16 @@ a:hover, a:active {
 
 /* grid layout */
 .column {
-	float: left;
-	width: 40%;
+    float: left;
+    width: 40%;
 }
 
 .row:after {
-	content: "";
-	display: table;
-	clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 @media screen and (max-width: 600px) {
-	.column { width: 100%; }
+    .column { width: 100%; }
 }
