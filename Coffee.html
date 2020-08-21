@@ -3,15 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Coffee</title>
+	<link rel="stylesheet" type="text/css" href="coffee.css">
 </head>
 <body>
-	<div id="content"></div>
-
+	<div class="words">
+		<div id="content"></div>
+	</div>
 </body>
 <footer>
 	<script type="text/javascript">
 		$ = x => { return document.getElementById(x); };
-		content = $("content");
+		var content = $("content");
+		init();
+
+		function init() {
+			loadJSON(
+				"coffee.json",
+				x => { 
+					var coffee = initJSON(x);
+					content.innerHTML = makeWord(coffee["root"])
+				});
+		}
 
 		function loadJSON(filename, callback) {
 			var xobj = new XMLHttpRequest();
@@ -22,6 +34,12 @@
 			};
 
 			xobj.send(null);
+		}
+
+		function initJSON(string) { return JSON.parse(string); }
+		
+		function makeWord(contents) {
+			return "<span class=\"word\">"+contents+"</span>";
 		}
 	</script>
 </footer>

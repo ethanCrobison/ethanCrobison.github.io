@@ -1,0 +1,25 @@
+:root {
+	--color-time: 1.5s;
+}
+
+body {
+	font-family: Helvetica, sans;
+}
+
+div.words {
+	margin: 1em auto;
+	text-align: center;
+}
+
+.word {
+	border-radius: 0.1em;
+	padding: 0.2em 0.2em;
+	/*margin: 0em -0.1em;*/
+	transition: background-color var(--color-time), padding 1s;
+}
+
+.word:hover {
+	background-color: black;
+	color: white;
+	padding: 0.3em;
+}
