@@ -1,78 +1,121 @@
-# header
+https://gillandrews.com/website-content-checklist-small-business/
 
-- [x]
+General & Global
 
-# contact
+    Logo
+    Footer widget options
+        Social feed
+        Page list / mini menu
+        Legal links
+        Logo
+        Contact info
+        Recent posts
+        Certifications & Memberships
+        Call to Action
+        Brief about
+        Opt in
+    Sidebar widget options
+        Opt in
+        Recent posts
+        Contact block
+        Categories
+        Author
+    Social media profile links
+    Favicon (or create one from their logo)
 
-- [x] email
-- [x] github
+Home Page
 
-# professional work
+    Header/Hero Image
+    Main headline
+    Tagline
+    Headline for SEO
+    Site description
+    Header button text
+    Main content & images
+    Call to action
 
-for each
-1. what is it, broadly? [include .gif and source links and steam
-   links]
-2. what did I do in my day-to-day?
-3. what skills did I practice/improve upon?
-4. how was I an essential member of the team?
-5. when did I do it?
+About
 
-- [x] unannounced game
-- [x] project highrise mobile port
-- [x] project highrise desktop
-- [] hover to start .gifs for each
+    Main content
+    Images
+    Team photos
+    Team bios
+    Team social media
+    Certifications & Memberships & Partners & Accreditations
+    Call to action
 
-# scholarly work
+Products/Services
 
-For each project, give a blurb about the work, as well as a "with blah
-blah blah" by line. The date, and location of publication.
+    Headings
+    Summary
+    Images
 
-- [] position paper for how game AI papers should be done
-- [] CoG AI paper
-- [] CoG design paper
-- [] autodread
-- [] sandbox
-- [] Dear Leader's Happy Story Time?
+Blog
 
-# pedagogical work
+    Author Bio
+    Author Image (gravatar)
+    Several initial posts with featured image
 
-- [] teaching list
-- [] lectures
-    [] for each class, club, whatever, I've ever been involved with,
-    find any talks I've given and decided if they should be uploaded.
+Contact
 
-## guides, faqs, tutorials
+    Phone number(s)
+    Email address(es)
+    Email to send form to
+    Contact form fields
+    Map address(es)
+    Mail address(es)
+    Supporting text
+    Areas serviced
+    Business numbers or license numbers if required
+    Premises photos
 
-- [] TODO list on main page
+Supporting Content
 
-# personal & misc.
+    Testimonials including images
+    Client images/logos
+    FAQs
+    404 page content & links
+    Downloads & Resources
+    Video embed code (client to upload)
 
-- [] vimrc challenges... when I solve a problem, document it
-- [] asp notes
-- [] asp for scheduling
-- [] the autograder script for rob's class
-- [] blog post about making this site pleaseseeee
-- [] also, blog post about the process of going through all of my old,
-    e.g., google drive folders and making back-ups somewhere
-- [] how to write academic papers in markdown/pandoc/latex fusion
-- [] makefiles
+SEO
 
-## Smaller Games that I Made :)
+    Target keywords
 
-- [] ongoing projects
-- [] train jam
-- [] trijam
-- [] that other jam?
+Email Marketing
 
-## principles of this site
+    CRM/autoresponder credentials
+    Lists to add subscribers to
+    Tags to add
+    Opt in
+        Location(s)
+        Headline and/or subscribe text
+        Button text
+        Fields (optional/required)
 
-1. static\*
-2. tiny\*
-3. accessible
-4. didactic
-5. written in markdown\*
+Tracking & Scripts
 
-\*not always possible, but I've done my best
+    Analytics
+    Facebook pixel code
+    Live chat script
+    Reviews embed code
 
-# miscellaneous stuff to clean up
-- [] favicon.ico not found
+eCommerce
+
+    Products
+        Title
+        SKU
+        Category
+        Description
+        Image
+        Price
+        Dimensions & Weight (if calculating shipping)
+    Shipping method(s) & costs
+    Payment method(s) and credentials
+    Coupons
+
+Legals
+
+    Privacy Policy
+    Terms and Conditions or other legal info
+    Custom copyright

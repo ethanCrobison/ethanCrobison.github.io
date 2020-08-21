@@ -1,29 +1,78 @@
+# title, season, years, instructor, description, links to lectures, links to
+# tutorials
 
-- course: Game Design Studio II
-  years: [2018]
-  season: Spring
-  description: Upper-level game design course, for students hoping to go into the industry. Organized and run by me.
-
-- course: Data Structures and Data Management
-  years: [2018]
-  season: Spring
-  description: Fundamentals of data structures and algorithm in C#.
-  instructor: Ian Horswill
-
-- course: Game Design Studio I
-  years: [2016, 2017, 2018]
-  description: Game design studio course.
-  instructor: Rob Zubek
+- title: Game Design Studio
   season: Winter
-
-- course: Game Design and Development
-  years: [2016, 2017]
-  description: Introductory game design course.
-  instructor: Ian Horswill
+  years: [2017, 2018, 2019, 2020]
+  instructor: Rob Zubek
+  desc: Students create a shippable game from scratch in Unity3D and C# in a
+      studio-style environment with instructor critique and guidance.
+  talks:
+      - title: Tricks for Juicy Games
+        link: JuiceTricks.zip
+      - title: Tips for Making Short Games
+      - title: Polish
+      - title: 10 Things I Hate About Unity
+- title: Game Design and Development
   season: Fall
-
-- course: Computer Game Design
+  years: [2016, 2017]
+  instructor: Ian Horswill
+  desc: Students learn the ropes of Unity3D and C# gameplay programming.
+      Topics include, among other things, rendering, physics, input, pathfinding,
+      and serialization.
+  talks:
+      - title: "Game AI: Pathfinding"
+        link: Pathfinding.pdf
+      - title: "MDA II: Gameplay"
+        link: Gameplay.pdf
+      - title: "MDA III: Experience"
+        link: Experience.pdf
+- title: Game Design Studio II
+  season: Spring
+  years: [2018]
+  desc: Games industry-bound students create a game from scratch in teams of
+      three using Unity3 and C#. Advanced iteration of the original game design
+      studio.
+- title: Data Structures
+  season: Spring
+  years: [2020]
+  instructor: Vincent St. Amour
+  desc: Students learn the fundamentals of algorithms, runtime complexity, and
+      data structures in a python-adjacent language. Heavy on system design and
+      unit testing.
+  talks:
+      - title: "How to Write Unit Tests"
+        link: UnitTests.mp4
+      - title: "Debugging Fundamentals"
+        link: Debugging.mp4
+- title: Data Structures
+  season: Spring
+  years: [2018]
+  instructor: Ian Horswill
+  desc: Students learn the fundamentals of algorithms, runtime complexity, and
+      data structures in C#. Heavy on theoretical reasoning and proofs.
+  talks:
+      - title: Trees
+      - title: Hash Tables
+      - title: Priority Queues
+- title: Introduction to Artificial Intelligence
+  season: Fall
+  years: [2018]
+  instructor: Willie Wilson
+  desc: Students learn the foundational aspects of artificial intelligence.
+      Topics include logic, symbolic knowledge representation, search and problem
+      solving, and statistical methods. Heavier on classical AI and logic.
+- title: Introduction to Game Design
+  season: Spring
   years: [2017]
   instructor: Ken Forbus
-  description: Fundamentals and history of game design. One of the OG game design courses in the country.
-  season: Spring
+  desc: Students learn how games are designed, and create their own. Topics
+      include game mechanic, game engine architecture, and industry practice. Since
+      discontinued at Northwestern, this class was one of the oldest university
+      game design courses in the country.
+  talks:
+      - title: Terrain Analysis
+      - title: Strategy Games
+      - title: Handheld Gaming
+      - title: Inform Topics
+      - title: MMOs

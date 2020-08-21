@@ -3,50 +3,29 @@ layout: default
 title: Tutorials
 ---
 
-<!-- TODO get these from a data file -->
+This site is a self-contained manual for making this site. It is also a
+manual for making other things. This page contains tutorials for the
+successful execution of projects from both categories.
 
-# Game Programming in Unity
+# Line-by-lines
 
-This is some text.
+Some of my best learning experiences for esoteric pieces of software has
+come from finding other people's corresponding rc files and reading
+those.
 
-{% for tut in site.tutorials %}
-[{{ tut.title | escape }}]({{ tut.url }})
-{% endfor %}
+Here are mine.
 
-<br>
-{% for proj in site.data.projects %}
-# {{proj.link}}
-{% endfor %}
-
-This is some more text.
-
-- start menu
-- character info
-- hover preview
-- mouseovers
-- camera tracking
-- p-controllers
+- [My .zshrc, line-by-line](zshrc)
 
 <!--
+# Automation
 
-# Text Editing
+Some people automate out of efficiency/laziness, but I suspect that I
+automate because I love knowing that I understand a process well enough
+to explain it to a lightning rock.
 
-[TK]
+Here are some things that I've automated.
 
-# Vim
-
-[TK]
-
-# Shell Scripting
-
-[TK]
-
-# Answer Set Programming
-
-[TK]
-
-# Web Development
-
-[TK]
-
+- gds script
+- auto cv
 -->

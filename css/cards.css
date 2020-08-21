@@ -1,0 +1,49 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border: 0.1em solid white;
+    border-radius: 0.5em;
+
+    padding: 1em;
+    margin-bottom: 1.5em;
+}
+
+
+.card .content {
+    width: 65%;
+}
+
+.card .content .category:first-child {
+    margin-top: 0.5em;
+}
+
+.card .content .category {
+    padding: 0.5em;
+    border: 0.1em solid clear;
+    border-radius: 0.5em;
+}
+
+.card .content .category:nth-of-type(odd) {
+    background: var(--persian-green);
+    color: var(--charcoal);
+}
+
+.card .content .category:nth-of-type(odd) a {
+    color: var(--burnt-sienna);
+}
+
+.card .cover {
+    height: 100%;
+    margin: -2em 1em 1.5em 0;
+    padding: 0 1em;
+    border: 0.1em solid white;
+    border-radius: 0.5em;
+}
+
+@media screen and (max-width: 600px) {
+    .card { flex-direction: column; }
+    .card .content { width: 100%; }
+    .card .cover { width: 100%; }
+}

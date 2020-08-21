@@ -1,74 +1,67 @@
 ---
 layout: home
-title: Ethan Robison
+title: ethanrobison
 ---
 
-AI PhD Candidate \| Designer \| Programmer<br>
-[{{ site.email }}][2] | 
-[github.com/{{ site.github_username }}][1]
+{% capture contact %}
+<a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+<a href="https://github.com/{{ site.github_username }}">
+github.com/{{ site.github_username }}
+</a>
 
----
+<p>I forge software and I tell stories. I teach subjects worldly and
+ethereal. I am an explorer of the vast possibility spaces of procedural
+lands, and I make maps of what I find and learn.</p>
 
-I study experimental game AI. Sometimes I make things.<br>
-Explore to find:
+{% endcapture %}
 
-<!-- - [my blog](/posts) -->
-- [my work experience](/professional)
-- [my pedagogical experience](/teaching)
-<!-- - [research](/research) -->
+{% capture crafts %}
+<p>The services I offer are world-class.</p>
 
----
+<div class="category">
+<b><em>Software of all kinds.</em></b> Games,
+websites, desktop applications, scripts for automating menial tasks, &
+more. See <a href="TODO">my portfolio</a> for demonstrations.
+</div>
 
-# Principles of this site
+<div class="category"><b><em>Individual tutoring and teaching in the
+realm of computer science.</em></b> I've been teaching CS since I was an
+undergrad. See <a href="TODO">what my past students have said.</a></div>
 
-This site is constructed in (loose) adherence to some principles. It is
+<div class="category"><b><em>Voice overs, voice acting, and
+narration.</em></b> I didn't earn the nickname "The Voice" for nothing.
+Listen to <a href="TODO">some samples.</a> </div>
 
-- (in) Markdown
+<div class="category"><b><em>Private group GMing for select
+TTRPGs.</em></b> I'm a master storyteller in the fantastic worlds of
+DnD5e, Call of Cthulhu, Nights Black Agents, and Fall of Delta Green, to
+name but a few. New systems can be adopted upon reasonable
+request.</div>
 
-The content, when possible, is written in markdown. It lends itself to
-being read exactly as it shows up, which I consider an important
-feature.
+{% endcapture %}
 
-- Static
+{% capture stories %}
+<p>If, instead, you've come to be entertained, gather 'round the
+fire.</p>
 
-This website is statically generated. That is, I write content, I churn
-it through some preprocessing to create pages that browsers can handle,
-and I host those pages. Everyone gets the same experience, as opposed to
-dynamically serving different content to different folks.
+<div class="category"><b><em>Rantings and ravings.</em></b> <a
+href="TODO">My podcast, "Eldritch Radio".</a> Fed into your ears, bidden
+or not, every Wednesday at 8PM CT.</div>
 
-I don't have any intrinsic gripes with dynamic content, it's just not
-necessary for a website like this. But keeping a site static helps to
-reduce its carbon footprint, among other things. For an excellent
-discussion of low tech internet, [I recommend this online
-magazine][3].
+<div class="category"><b><em>Journeys into procedural lands.</em></b> My
+graduate research led me down the arcande paths of procedurally
+generated stories and places.  See them brought to life. Better yet, <a
+href="TODO">explore them with me.</a></div>
 
-- Tiny
+<div class="category"><b><em>Scribblings.</em></b> My blog, my blog.
+Tours of automation, procedural content generation, and more. <a
+href="TODO">Read the latest.</a></div>
 
-Similarly, and for a lot of the same arguments made arguing for static
-pages, I've tried to keep the size of the individual pages on this
-website pretty small. 
+<div class="category"><b><em>Miscellaneous entertainments.</em></b> For
+everything else, whatsoever it may be that occupies my time and
+energies. <a href="TODO">Dive in.</a></div>
+{% endcapture %}
 
-- Archival
-
-As of May 1st, 2020, any page that you link to from this site will link
-to something semantically similar forever. If you need to reference
-something before then (I doubt it, but just in case), the entire site
-and its sordid history can be [found on my github][5].
-
-- Accessible
-
-This site strives to comply with the accessibility guidelines
-of the [Web Accessibility Initiative][4].
-
-- Didactic
-
-Everything I can do, you can do better. Piece by painstaking piece, this
-website and all of its content will be documented for pedagogical
-purposes.
-
-[1]: https://github.com/{{site.github_username}}/
-[2]: mailto:{{ site.email }}
-[3]: https://solar.lowtechmagazine.com/about.html
-[4]: https://www.w3.org/WAI/
-[5]: https://github.com/ethanrobison/ethanrobison.github.io
----
+{% include card.html cover="me" contents=contact %}
+{% include card.html cover="crafts" contents=crafts %}
+{% include card.html cover="stories" contents=stories %}

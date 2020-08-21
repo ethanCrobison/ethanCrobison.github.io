@@ -1,0 +1,9 @@
+types:
+    - name: Professional
+      title: Work History
+    - name: Publication
+      title: Publications
+    - name: Open Source
+      title: Open Source Contributions
+    - name: Personal
+      title: Personal Projects

@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+original=$1
+lineby=$2
+
+< $original while read x; do
+    if [[ -z $x ]]; then continue; fi # empty line
+    if rg --quiet -x "^\s*#.*$" <<< $x; then continue; fi # comment
+    if ! rg --quiet -F $x $lineby; then echo $x; fi
+done
