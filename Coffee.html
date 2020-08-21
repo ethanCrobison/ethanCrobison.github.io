@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Coffee</title>
+</head>
+<body>
+	<div id="content"></div>
+
+</body>
+<footer>
+	<script type="text/javascript">
+		$ = x => { return document.getElementById(x); };
+		content = $("content");
+
+		function loadJSON(filename, callback) {
+			var xobj = new XMLHttpRequest();
+			xobj.overrideMimeType("application/json");
+			xobj.open("GET", filename, true);
+			xobj.onreadystatechange = () => {
+				if (xobj.readyState == 4 && xobj.status == "200") { callback(xobj.responseText) }
+			};
+
+			xobj.send(null);
+		}
+	</script>
+</footer>
+</html>
