@@ -1,0 +1,29 @@
+I"ú<p>This site is a self-contained manual for making this site. It is also a
+manual for making other things. This page contains tutorials for the
+successful execution of projects from both categories.</p>
+
+<h1 id="line-by-lines">Line-by-lines</h1>
+
+<p>Some of my best learning experiences for esoteric pieces of software has
+come from finding other peopleâ€™s corresponding rc files and reading
+those.</p>
+
+<p>Here are mine.</p>
+
+<ul>
+  <li><a href="zshrc">My .zshrc, line-by-line</a></li>
+</ul>
+
+<!--
+# Automation
+
+Some people automate out of efficiency/laziness, but I suspect that I
+automate because I love knowing that I understand a process well enough
+to explain it to a lightning rock.
+
+Here are some things that I've automated.
+
+- gds script
+- auto cv
+-->
+:ET
