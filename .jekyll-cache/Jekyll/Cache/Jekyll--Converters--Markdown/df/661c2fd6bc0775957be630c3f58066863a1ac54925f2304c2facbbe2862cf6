@@ -1,0 +1,73 @@
+I"<p>I’ve published a <a href="/tutorials/zshrc">line-by-line walkthrough of the .zsrhc that I use</a>.
+Initially, that page’s markdown included the line (in <a href="https://shopify.github.io/liquid/">Liquid</a>):</p>
+
+<pre><code class="language-liquid-markdown">
+{% include zshrc %}
+
+</code></pre>
+
+<p>Where <code class="language-plaintext highlighter-rouge">zshrc</code> was linked linked to my <code class="language-plaintext highlighter-rouge">_includes</code> directory:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ln ~/PATH/TO/.zshrc _includes/zshrc
+</code></pre></div></div>
+
+<p>Then, I would copy the file’s contents over line-by-line and annotate
+them as needed. The problem with this method is that any changes to my
+<code class="language-plaintext highlighter-rouge">.zshrc</code> would be automatically applied to the page’s contents, but I
+might forget to update the annotations!</p>
+
+<p>Since one of the points of programming is to use computers to do what
+humans are bad at, here’s a script that double-checks my work:</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/zsh</span>
+
+<span class="nv">original</span><span class="o">=</span><span class="nv">$1</span>
+<span class="nv">lineby</span><span class="o">=</span><span class="nv">$2</span>
+
+&lt; <span class="nv">$original</span> <span class="k">while </span><span class="nb">read </span>x<span class="p">;</span> <span class="k">do
+    if</span> <span class="o">[[</span> <span class="nt">-z</span> <span class="nv">$x</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then continue</span><span class="p">;</span> <span class="k">fi</span> <span class="c"># empty line</span>
+    <span class="k">if </span>rg <span class="nt">--quiet</span> <span class="nt">-x</span> <span class="s2">"^</span><span class="se">\s</span><span class="s2">*#.*$"</span> <span class="o">&lt;&lt;&lt;</span> <span class="nv">$x</span><span class="p">;</span> <span class="k">then continue</span><span class="p">;</span> <span class="k">fi</span> <span class="c"># comment</span>
+    <span class="k">if</span> <span class="o">!</span> rg <span class="nt">--quiet</span> <span class="nt">-F</span> <span class="nv">$x</span> <span class="nv">$lineby</span><span class="p">;</span> <span class="k">then </span><span class="nb">echo</span> <span class="nv">$x</span><span class="p">;</span> <span class="k">fi
+done</span>
+</code></pre></div></div>
+
+<p>I can call this with, e.g.:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./_checklinebyline ~/.zshrc ./zshrc.md
+</code></pre></div></div>
+
+<p>And every non-empty, non-comment line in my <code class="language-plaintext highlighter-rouge">.zshrc</code> is searched for
+usng <a href="https://github.com/BurntSushi/ripgrep">ripgrep</a> in the line-by-line annotation. If doesn’t show up, it
+gets printed out.</p>
+
+<p>A neat way to check my work. Next step will be making sure that this
+script gets run on all of my line-by-lines automatically (validation is
+no good if you don’t run it!).</p>
+
+<h2 id="coda-shellscripting-weirdness">Coda: Shellscripting Weirdness</h2>
+
+<p>A couple of useful things from this script, for beginner/intermediate
+shell programmers.</p>
+
+<p>The construction <code class="language-plaintext highlighter-rouge">&lt; $file while read x</code> is the “correct” replacement for
+the so-called “Useless Use of Cat” (<a href="http://porkmail.org/era/unix/award.html#cat">UUOC</a>) I might have done a few
+months ago: <code class="language-plaintext highlighter-rouge">cat $file | while read x</code>.</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt; <span class="nv">$file</span> <span class="k">while </span><span class="nb">read </span>x<span class="p">;</span> <span class="k">do</span> <span class="c"># this</span>
+    <span class="nb">cat</span> <span class="nv">$file</span> | <span class="k">while </span><span class="nb">read </span>x<span class="p">;</span> <span class="k">do</span> <span class="c"># over this</span>
+</code></pre></div></div>
+
+<p>The construction <code class="language-plaintext highlighter-rouge">&lt;&lt;&lt; $x</code> is the avoids a “Useless Use of Echo”
+(<a href="http://porkmail.org/era/unix/award.html#echo">UUOE</a>) that I have definitely done in the past: <code class="language-plaintext highlighter-rouge">echo $x | rg ...</code>.</p>
+
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    rg ... <span class="o">&lt;&lt;&lt;</span> <span class="nv">$x</span> <span class="c"># this</span>
+    <span class="nb">echo</span> <span class="nv">$x</span> | rg ... <span class="c"># over this</span>
+</code></pre></div></div>
+
+<p><br /></p>
+
+<p>Using <code class="language-plaintext highlighter-rouge">&lt;</code> for input and <code class="language-plaintext highlighter-rouge">&lt;&lt;&lt;</code> (called a <a href="https://unix.stackexchange.com/questions/59007/echo-vs-or-useless-use-of-echo-in-bash-award">herestring</a>) look a little
+wonky, but if there’s one thing that shell scripting is good for, it’s
+making you feel like a wizard learning an esoteric magical language.</p>
+
+:ET
