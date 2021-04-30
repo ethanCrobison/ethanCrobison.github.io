@@ -1,6 +1,5 @@
 ---
 layout: post
-categories: automation
 date: 2020-5-18
 title: "Quick-and-dirty Validation with Grep"
 ---
