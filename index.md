@@ -20,9 +20,9 @@ Drop me a line: {my first name}@{this domain}
 
 ## "Content"
 
-- [resume](/files/resume.pdf)
 - [teaching experience](/teaching/teaching)
 - [projects](/projects/landing)
 - [writing](/posts)
+- [resume (file download)](/files/resume.pdf)
 
 ---
