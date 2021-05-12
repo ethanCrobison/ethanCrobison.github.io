@@ -44,3 +44,7 @@ a:hover, a:active {
 }
 
 .gray { color: #bbb; }
+
+table, td {
+    border: 1px solid gray;
+}
