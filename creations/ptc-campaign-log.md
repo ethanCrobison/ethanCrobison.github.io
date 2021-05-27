@@ -13,10 +13,17 @@ layout: default
 - You have translated the grimoire.
 - You chose not to go to the police.
 - The Stranger is on to you.
+- Intruded on a secret meeting.
+
+## VIPs Interviewed
+
+## VIPs Slain
+
+- Ishaiaru Haruko
 
 |                      |               |
 |----------------------|---------------|
-| Doubt                | x             |
+| Doubt                | xx            |
 |----------------------|---------------|
 | Conviction           |               |
 |----------------------|---------------|
@@ -24,7 +31,7 @@ layout: default
 |----------------------|---------------|
 | I: Curtain Call      | xxxxx xx      |
 |----------------------|---------------|
-| II: The Last King    |               |
+| II: The Last King    | xx(x)         |
 |----------------------|---------------|
 | Elder Thing          | +2            |
 |----------------------|---------------|
@@ -56,7 +63,7 @@ layout: default
 |--------------|----------|--------|
 | Marie        |          |        |
 |--------------|----------|--------|
-| Silas        |          |        |
+| Silas        | x        |        |
 |--------------|----------|--------|
 | Leo          |          |        |
 |--------------|----------|--------|
