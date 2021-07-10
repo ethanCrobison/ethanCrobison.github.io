@@ -28,10 +28,16 @@ taught by me
 {% for talk in teach.talks %}
 {% if talk.link %}
     {% assign link = talk.link %}
+{% else if talk.external_link %}
 {% else %}
     {% assign link = talk.title | replace: " ", "_" | append: ".pdf" %}
 {% endif %}
+
+{% if talk.external_link %}
+- [{{ talk.title }}]({{ talk.external_link }})
+{% else %}
 - [{{ talk.title }}](/files/talks/{{ link }})
+{% endif %}
 {% endfor %}
 {% endif %}
 

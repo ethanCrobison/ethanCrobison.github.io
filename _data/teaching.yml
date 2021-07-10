@@ -42,9 +42,9 @@
       unit testing.
   talks:
       - title: "How to Write Unit Tests"
-        link: UnitTests.mp4
+        external_link: "https://drive.google.com/file/d/1a4sw5nU5kX-PqHC4wezAtSTV7v1YpCQc/view?usp=sharing"
       - title: "Debugging Fundamentals"
-        link: Debugging.mp4
+        external_link: "https://drive.google.com/file/d/1tnf6zLWrbtO_95K678cHw1x8Wie9zvVk/view?usp=sharing"
 - title: Data Structures
   season: Spring
   years: [2018]
